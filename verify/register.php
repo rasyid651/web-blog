@@ -9,7 +9,8 @@ include __DIR__ . '/../koneksi.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="../img_logo/go_it.ico">
+    <title>Registrasi</title>
     <link href="../src/output.css" rel="stylesheet">
 </head>
 
@@ -24,7 +25,7 @@ include __DIR__ . '/../koneksi.php';
                 <!-- input field 1 -->
                 <div class="flex flex-col gap-4">
                     <h2 class="text-lg font-medium">Username</h2>
-                    <input type="text" name="username" placeholder="example: rasyid123"
+                    <input type="text" name="username" placeholder="Masukkan Username"
                         class="bg-white/80 text-black/90 text-lg text-left w-full py-2 pl-4 pr-12 rounded-md" required />
                 </div>
                 <!-- input field 2 -->
@@ -56,7 +57,7 @@ include __DIR__ . '/../koneksi.php';
                     $_SESSION['username'] = $username;
                     $_SESSION['role'] = "user";
                     
-                    header('location: ../index.php');
+                    header('location: ../user.php');
                     exit();
                 }
             }
