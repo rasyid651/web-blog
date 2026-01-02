@@ -66,3 +66,22 @@
 
                     <!-- jalanin tailwind -->
                     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+
+{
+  "name": "project_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
+  

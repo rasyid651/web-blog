@@ -70,13 +70,21 @@ include 'koneksi.php';
         ?>
         <div data-aos="fade-down">
             <section>
-                <div class="container mx-auto max-w-7xl flex flex-col justify-center gap-10">
-                    <div class="flex flex-col gap-8">
-                        <h1 class="text-4xl text-white font-semibold text-center"><?= $row['judul']  ?></h1>
-                        <img src="img/<?= $row['gambar'] ?>" alt="img1" class="w-full h-140 object-cover rounded-t-md">
+                <div class="container mx-auto max-w-7xl flex flex-col justify-center gap-6 md:gap-10 px-4 md:px-0">
+
+                    <div class="flex flex-col gap-4 md:gap-8">
+                        <h1 class="text-2xl md:text-4xl text-white font-semibold text-center leading-tight">
+                            <?= $row['judul'] ?>
+                        </h1>
+
+                        <img src="img/<?= $row['gambar'] ?>" alt="img1"
+                            class="w-full h-64 md:h-140 object-cover rounded-md shadow-lg">
                     </div>
-                    <div class="flex flex-col gap-6 ">
-                        <p class="text-white/70 text-lg font-medium text-justify"><?= $row['isi'] ?></p>
+
+                    <div class="flex flex-col gap-6">=
+                        <p class="text-white/70 text-base md:text-lg font-medium text-justify leading-relaxed">
+                            <?= $row['isi'] ?>
+                        </p>
                     </div>
                 </div>
 

@@ -2,7 +2,7 @@
 session_start();
 include __DIR__ . '/../koneksi.php';
 if ($_SESSION['role'] != "admin") {
-    header('location: ./verify/login.php');
+    header('location: ./auth/login.php');
 }
 ?>
 
