@@ -1,11 +1,11 @@
-### 🌐 Go IT - Portal Informasi & Edukasi Teknologi
+## 🌐 Go IT - Portal Informasi & Edukasi Teknologi
 Go IT adalah sebuah platform web blog dinamis yang menyajikan artikel, wawasan, strategi, dan gagasan terbaru seputar dunia Teknologi Informasi (IT) dan produktivitas.
 Website ini dirancang untuk menjadi jembatan informasi bagi pegiat teknologi, developer, maupun masyarakat umum yang ingin memahami perkembangan era digital, mulai dari AI, Cloud Computing, hingga Software Development.
 
-### 🎯 Tujuan Project
+## 🎯 Tujuan Project
 Project ini dibuat untuk menyediakan konten berkualitas yang dikurasi secara mendalam mengenai tren industri IT. Selain itu, sistem ini berfungsi sebagai sarana pengelolaan konten (Content Management System) sederhana dimana admin dapat mengelola artikel yang diterbitkan.
 
-### 🚀 Fitur Utama
+# 🚀 Fitur Utama
 
 ## 👤 Pengunjung (Public User)
 Halaman Beranda Interaktif: Tampilan hero section yang menarik dengan navigasi yang mudah.
@@ -25,7 +25,7 @@ Update: Mengedit konten artikel yang sudah ada.
 Delete: Menghapus artikel yang tidak relevan.
 Logout: Keluar dari sesi admin dengan aman.
 
-### 📱 Responsivitas (Fully Responsive)
+## 📱 Responsivitas (Fully Responsive)
 Berbeda dengan versi sebelumnya, Go IT telah didesain sepenuhnya responsif. Tampilan website akan menyesuaikan secara otomatis agar tetap nyaman dibaca dan digunakan pada berbagai perangkat:
 🖥️ Desktop / Laptop
 📱 Tablet
@@ -36,7 +36,7 @@ Backend: PHP (Native).
 Database: MySQL (phpMyAdmin).
 Tools: Visual Studio Code, Git.
 
-### 📂 Struktur Folder
+## 📂 Struktur Folder
 Berdasarkan struktur repository saat ini:
 
 /admin          # Halaman dashboard dan logika admin
@@ -52,11 +52,7 @@ user.php        # Halaman view user (jika dipisah)
 package.json    # Konfigurasi project (jika menggunakan npm)
 README.md       # Dokumentasi project
 
-## 📸 Tangkapan Layar (Screenshots)
-Landing Page	Admin Dashboard
-Tampilan halaman depan dengan tema gelap yang elegan.	Halaman kelola artikel dengan fitur Edit & Hapus.
-
-### 👨‍💻 Author
+## 👨‍💻 Author
 Muhammad Al Rasyid || UI/UX Designer & Front-End Developer
 
 📧 Email: rystostudio@gmail.com
