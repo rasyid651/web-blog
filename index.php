@@ -78,8 +78,8 @@ include 'koneksi.php';
               <img src="img/<?= $row['gambar'] ?>" alt="img_project" class="w-full h-48 object-cover rounded-t-md">
               <div class="flex flex-col gap-3 py-4 px-6">
                 <div class="flex flex-col gap-2">
-                  <h1 class="text-md text-white font-semibold"><?= $row['judul'] ?></h1>
-                  <p class="text-base text-white/80 font-medium leading-6 line-clamp-4 text-justify"><?= $row['isi'] ?>?></p>
+                  <h1 class="text-base text-white font-semibold"><?= $row['judul'] ?></h1>
+                  <p class="text-sm text-white/80 font-light leading-6 line-clamp-4 text-justify"><?= $row['isi'] ?>?></p>
                 </div>
                 <a href="./auth/login.php" class="flex flex-row items-center gap-2 text-white/80 font-semibold text-md hover:text-white hover:font-semibold">
                   <p>Detail</p>
