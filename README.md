@@ -1,64 +1,60 @@
-## 🌐 Go IT - Portal Informasi & Edukasi Teknologi
-Go IT adalah sebuah platform web blog dinamis yang menyajikan artikel, wawasan, strategi, dan gagasan terbaru seputar dunia Teknologi Informasi (IT) dan produktivitas.
-Website ini dirancang untuk menjadi jembatan informasi bagi pegiat teknologi, developer, maupun masyarakat umum yang ingin memahami perkembangan era digital, mulai dari AI, Cloud Computing, hingga Software Development.
+# 🌐 Go IT - Portal Informasi Teknologi
+
+**Go IT** adalah sebuah platform web blog berbasis CRUD yang menyajikan informasi terkini seputar dunia teknologi, mulai dari AI, Software Development, hingga tren Cloud Computing. Website ini dirancang untuk memudahkan pengelolaan konten artikel melalui panel admin yang intuitif.
+
+---
 
 ## 🎯 Tujuan Project
-Project ini dibuat untuk menyediakan konten berkualitas yang dikurasi secara mendalam mengenai tren industri IT. Selain itu, sistem ini berfungsi sebagai sarana pengelolaan konten (Content Management System) sederhana dimana admin dapat mengelola artikel yang diterbitkan.
+Project ini dibuat untuk menyediakan wadah edukasi bagi peminat IT. Dengan sistem manajemen konten (CMS) sederhana, admin dapat dengan mudah memperbarui informasi, sementara pembaca mendapatkan pengalaman navigasi yang bersih dan modern.
 
-# 🚀 Fitur Utama
+---
 
-## 👤 Pengunjung (Public User)
-Halaman Beranda Interaktif: Tampilan hero section yang menarik dengan navigasi yang mudah.
-Katalog Artikel: Menampilkan daftar artikel terbaru dengan kartu (card) yang rapi.
-Detail Artikel: Membaca konten artikel secara lengkap.
-Halaman Tentang Kami: Informasi visi dan misi website.
-Formulir Hubungi Kami: Pengunjung dapat mengirimkan pesan atau komentar melalui form kontak.
-Navigasi Responsif: Menu yang menyesuaikan dengan ukuran layar.
+## 🚀 Fitur Utama
 
-## 🛠 Admin (Dashboard)
-Login Admin: Keamanan akses menggunakan autentikasi session.
-Dashboard Manajemen: Melihat ringkasan daftar artikel.
-CRUD Artikel:
-Create: Menambah artikel baru (Judul, Gambar, Isi).
-Read: Melihat daftar artikel dalam bentuk tabel.
-Update: Mengedit konten artikel yang sudah ada.
-Delete: Menghapus artikel yang tidak relevan.
-Logout: Keluar dari sesi admin dengan aman.
+### 👤 Pengunjung (User)
+* **Membaca Artikel:** Menjelajahi berbagai artikel terbaru di bidang IT.
+* **Detail Artikel:** Melihat isi konten secara mendalam melalui halaman detail.
+* **Hubungi Kami:** Form interaktif untuk mengirimkan pesan atau pertanyaan kepada tim.
+* **Navigasi Cepat:** Menu navigasi yang memudahkan akses ke bagian Beranda, Artikel, Tentang Kami, dan Kontak.
 
-## 📱 Responsivitas (Fully Responsive)
-Berbeda dengan versi sebelumnya, Go IT telah didesain sepenuhnya responsif. Tampilan website akan menyesuaikan secara otomatis agar tetap nyaman dibaca dan digunakan pada berbagai perangkat:
-🖥️ Desktop / Laptop
-📱 Tablet
-📲 Smartphone (Mobile)
-🛠 Teknologi yang Digunakan
-Frontend: HTML5, CSS3 (Modern Layout & Responsive Design).
-Backend: PHP (Native).
-Database: MySQL (phpMyAdmin).
-Tools: Visual Studio Code, Git.
+### 🛠 Admin (Content Manager)
+* **Autentikasi Aman:** Sistem Login dan Logout untuk melindungi dashboard.
+* **Dashboard CRUD:** * **Create:** Menambah artikel baru lengkap dengan gambar.
+    * **Read:** Melihat daftar seluruh artikel dalam tabel yang rapi.
+    * **Update:** Memperbarui judul, isi, atau gambar artikel yang sudah ada.
+    * **Delete:** Menghapus artikel yang sudah tidak relevan.
+
+---
+
+## 📱 Responsivitas
+Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar **Fully Responsive**. Website dapat diakses dengan nyaman melalui:
+* 🖥️ Desktop / Laptop
+* 📱 Tablet
+* 📲 Smartphone (Mobile Friendly)
+
+---
+
+## ⚙️ Teknologi yang Digunakan
+* **Frontend:** HTML5, CSS3 (Custom Styling)
+* **Backend:** PHP (Native)
+* **Database:** MySQL (MariaDB)
+* **Tools:** Visual Studio Code, XAMPP, Figma (UI Design)
+
+---
 
 ## 📂 Struktur Folder
-Berdasarkan struktur repository saat ini:
-
-/admin          # Halaman dashboard dan logika admin
-/auth           # File untuk login/logout sistem
-/css            # File styling (CSS)
-/img            # Aset gambar artikel
-/img_logo       # Aset logo website
-/src            # Sumber daya tambahan
-detail.php      # Halaman baca selengkapnya artikel
-index.php       # Halaman utama (Landing Page)
-koneksi.php     # Konfigurasi koneksi database
-user.php        # Halaman view user (jika dipisah)
-package.json    # Konfigurasi project (jika menggunakan npm)
-README.md       # Dokumentasi project
-
-## 👨‍💻 Author
-Muhammad Al Rasyid || UI/UX Designer & Front-End Developer
-
-📧 Email: rystostudio@gmail.com
-
-📷 Instagram: @rasyid_ux
-
-💻 GitHub: rasyid651
-
-© 2025 Tim GO IT. All Rights Reserved.
+```text
+├── admin/              # Halaman fungsionalitas admin
+├── auth/               # Sistem autentikasi (Login/Logout)
+├── img/                # Asset gambar artikel
+├── img_logo/           # Asset logo website
+├── src/                # Source code tambahan/library
+├── .gitignore          # File konfigurasi git
+├── card.md             # Dokumentasi komponen card
+├── detail.php          # Halaman detail artikel
+├── index.php           # Halaman utama (Landing Page)
+├── koneksi.php         # Konfigurasi database
+├── logout.php          # Handler logout
+├── package.json        # Dependensi project
+├── user.php            # Halaman manajemen user (Admin side)
+└── README.md           # Dokumentasi project
