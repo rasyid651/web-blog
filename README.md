@@ -73,4 +73,4 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 
 ---
 
-© 2025 Tim GO IT
+© 2025 Tim Rysto Studio
