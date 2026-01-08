@@ -35,10 +35,10 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 ---
 
 ## ⚙️ Teknologi yang Digunakan
-* **Frontend:** HTML5, CSS3 (Custom Styling)
+* **Frontend:** HTML5,Tailwind CSS 
 * **Backend:** PHP (Native)
 * **Database:** MySQL (MariaDB)
-* **Tools:** Visual Studio Code, XAMPP, Figma (UI Design)
+* **Tools:** Visual Studio Code, Laragon, Figma (UI Design)
 
 ---
 
