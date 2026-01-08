@@ -44,17 +44,17 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 
 ## 📂 Struktur Folder
 ```text
-├── admin/              # Halaman fungsionalitas admin
-├── auth/               # Sistem autentikasi (Login/Logout)
-├── img/                # Asset gambar artikel
-├── img_logo/           # Asset logo website
-├── src/                # Source code tambahan/library
-├── .gitignore          # File konfigurasi git
-├── card.md             # Dokumentasi komponen card
-├── detail.php          # Halaman detail artikel
-├── index.php           # Halaman utama (Landing Page)
-├── koneksi.php         # Konfigurasi database
-├── logout.php          # Handler logout
-├── package.json        # Dependensi project
-├── user.php            # Halaman manajemen user (Admin side)
-└── README.md           # Dokumentasi project
+├── admin/              
+├── auth/              
+├── img/                
+├── img_logo/
+├── src/                
+├── .gitignore
+├── card.md             
+├── detail.php          
+├── index.php           
+├── koneksi.php         
+├── logout.php          
+├── package.json        
+├── user.php            
+└── README.md           
