@@ -19,7 +19,8 @@ Project ini dibuat untuk menyediakan wadah edukasi bagi peminat IT. Dengan siste
 
 ### 🛠 Admin (Content Manager)
 * **Autentikasi Aman:** Sistem Login dan Logout untuk melindungi dashboard.
-* **Dashboard CRUD:** * **Create:** Menambah artikel baru lengkap dengan gambar.
+* **Dashboard CRUD:**  
+    * **Create:** Menambah artikel baru lengkap dengan gambar.
     * **Read:** Melihat daftar seluruh artikel dalam tabel yang rapi.
     * **Update:** Memperbarui judul, isi, atau gambar artikel yang sudah ada.
     * **Delete:** Menghapus artikel yang sudah tidak relevan.
