@@ -38,8 +38,7 @@ Tools: Visual Studio Code, Git.
 
 ### 📂 Struktur Folder
 Berdasarkan struktur repository saat ini:
-code
-Text
+
 /admin          # Halaman dashboard dan logika admin
 /auth           # File untuk login/logout sistem
 /css            # File styling (CSS)
@@ -52,14 +51,18 @@ koneksi.php     # Konfigurasi koneksi database
 user.php        # Halaman view user (jika dipisah)
 package.json    # Konfigurasi project (jika menggunakan npm)
 README.md       # Dokumentasi project
-📸 Tangkapan Layar (Screenshots)
+
+## 📸 Tangkapan Layar (Screenshots)
 Landing Page	Admin Dashboard
 Tampilan halaman depan dengan tema gelap yang elegan.	Halaman kelola artikel dengan fitur Edit & Hapus.
 
 ### 👨‍💻 Author
-Muhammad Al Rasyid
-UI/UX Designer & Front-End Developer
+Muhammad Al Rasyid || UI/UX Designer & Front-End Developer
+
 📧 Email: rystostudio@gmail.com
+
 📷 Instagram: @rasyid_ux
+
 💻 GitHub: rasyid651
+
 © 2025 Tim GO IT. All Rights Reserved.
