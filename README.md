@@ -1,8 +1,3 @@
-Berikut adalah draf `README.md` yang telah disesuaikan dengan visual **Go IT** (Web Blog) pada gambar yang Anda unggah, namun tetap mempertahankan struktur profesional yang Anda inginkan.
-
----
-
-```markdown
 # 🌐 Go IT - Portal Informasi Teknologi
 
 **Go IT** adalah sebuah platform web blog berbasis CRUD yang menyajikan informasi terkini seputar dunia teknologi, mulai dari AI, Software Development, hingga tren Cloud Computing. Website ini dirancang untuk memudahkan pengelolaan konten artikel melalui panel admin yang intuitif.
@@ -79,7 +74,3 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 ---
 
 © 2025 Tim GO IT
-
-Apakah Anda ingin saya menambahkan instruksi cara instalasi database (cara import file .sql) ke dalam README ini?
-
-```
