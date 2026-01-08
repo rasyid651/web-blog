@@ -1,3 +1,8 @@
+Berikut adalah draf `README.md` yang telah disesuaikan dengan visual **Go IT** (Web Blog) pada gambar yang Anda unggah, namun tetap mempertahankan struktur profesional yang Anda inginkan.
+
+---
+
+```markdown
 # 🌐 Go IT - Portal Informasi Teknologi
 
 **Go IT** adalah sebuah platform web blog berbasis CRUD yang menyajikan informasi terkini seputar dunia teknologi, mulai dari AI, Software Development, hingga tren Cloud Computing. Website ini dirancang untuk memudahkan pengelolaan konten artikel melalui panel admin yang intuitif.
@@ -44,10 +49,10 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 
 ## 📂 Struktur Folder
 ```text
-├── admin/              
-├── auth/              
+├── admin/
+├── auth/               
 ├── img/                
-├── img_logo/
+├── img_logo/           
 ├── src/                
 ├── .gitignore
 ├── card.md             
@@ -58,3 +63,23 @@ Berbeda dengan versi sebelumnya, website **Go IT** kini telah dioptimalkan agar 
 ├── package.json        
 ├── user.php            
 └── README.md           
+
+```
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Al Rasyid** *UI/UX Designer & Front-End Developer*
+
+* **Tools:** Figma | Visual Studio Code
+* **Email:** [rystostudio@gmail.com](mailto:rystostudio@gmail.com)
+* **Instagram:** [@rasyid_ux](https://www.google.com/search?q=https://instagram.com/rasyid_ux)
+
+---
+
+© 2025 Tim GO IT
+
+Apakah Anda ingin saya menambahkan instruksi cara instalasi database (cara import file .sql) ke dalam README ini?
+
+```
